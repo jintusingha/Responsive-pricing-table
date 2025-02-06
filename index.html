@@ -1,139 +1,127 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing Table</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing Table</title>
 
-    <!-- Bootstrap 5 CSS CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+<style>
+    .pricing-header {
+        background-color: #f8f9fa; 
+        padding: 50px 0; 
+        border-radius: 8px; 
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    }
+
+    .pricing-header h1 {
+        font-family: 'Arial', sans-serif;
+        font-size: 2.5rem;
+        color: #4c637c;
+        font-weight: bold;
+    }
+
+    .pricing-header p {
+        font-family: 'Arial', sans-serif;
+        font-size: 1.25rem; 
+        color: #8293a2; 
+        font-weight: 400; 
+    }
+
+    .card:hover {
+            transform: translateY(-10px); 
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+        }
+</style>
 </head>
+
 <body>
 
-    <div class="container text-center py-5">
-        
-        <h1 class="display-4">pricing plans for everyone</h1>
-        <p class="lead">No surprise fees.Cancel anytime.</p>
-    
+    <div class="container text-center py-5 pricing-header">
+        <h1 class="display-4">Pricing plans for everyone</h1>
+        <p class="lead">No surprise fees. Cancel anytime.</p>
     </div>
 
     <div class="container text-center">
-
         <div class="row row-cols-1 row-cols-md-3">
+           
             <div class="col mb-4">
                 <div class="card shadow-lg">
-
                     <div class="card-header">
-        
-                        <h4 class="fw-bold ">Starter plan</h4>
-        
+                        <h4 class="fw-bold">Starter plan</h4>
                     </div>
                     <div class="card-body">
-                        
-                        <h1 class="my-0 font-weight-normal">$0.99 <small
-                            class="text-muted">/mo</small></h1>
-                            <ul class="list-unstyled mt-5 mb-4 text-start p-0 ms-5 ">
-                
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Contactless delivery</li>
-    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Mobile app</li>
-    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Dashboard</li>
-    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>In-Depth Statistics</li>
-    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Tracking Service</li>
-    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Time Management</li>
-    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Checking</li>
-                            </ul>
-                            <button class="btn btn-outline-primary btn-lg w-100">Sign up</button>
-                
+                        <h1 class="my-0 font-weight-normal">$0.99 <small class="text-muted">/mo</small></h1>
+                        <ul class="list-unstyled mt-5 mb-4 text-start p-0 ms-5 ">
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Contactless delivery</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Mobile app</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Dashboard</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>In-Depth Statistics</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Tracking Service</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Time Management</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Checking</li>
+                        </ul>
+                        <button class="btn btn-outline-primary btn-lg w-100">Sign up</button>
                     </div>
-        
                 </div>
-                
             </div>
 
+           
             <div class="col mb-4">
                 <div class="card shadow-lg">
-
                     <div class="card-header">
-        
                         <h4 class="fw-bold">Regular plan</h4>
-        
                     </div>
                     <div class="card-body">
-                        
-                        <h1 class="my-0 font-weight-normal">$1.99 <small
-                            class="text-muted">/mo</small></h1>
-                            <ul class="list-unstyled mt-5 mb-4 text-start p-0 ms-5">
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> All the previous perks</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Live coverage</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Analysis</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Selling your terms</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Onboarding</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Targeted ads</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Backup</li>
-                            </ul>
-                            
-                            <button class="btn btn-outline-primary btn-lg w-100">Sign up</button>
-                
+                        <h1 class="my-0 font-weight-normal">$1.99 <small class="text-muted">/mo</small></h1>
+                        <ul class="list-unstyled mt-5 mb-4 text-start p-0 ms-5">
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>All the previous perks</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Live coverage</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Analysis</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Selling your terms</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Onboarding</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Targeted ads</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Backup</li>
+                        </ul>
+                        <button class="btn btn-outline-primary btn-lg w-100">Sign up</button>
                     </div>
-        
                 </div>
-                
             </div>
 
+           
             <div class="col mb-4">
                 <div class="card shadow-lg">
-
                     <div class="card-header">
-        
                         <h4 class="fw-bold">Advance Plan</h4>
-        
                     </div>
                     <div class="card-body">
-                        
-                        <h1 class="my-0 font-weight-normal">$7.99 <small
-                            class="text-muted">/mo</small></h1>
-                            <ul class="list-unstyled mt-5 mb-4 text-start p-0 ms-5">
-                
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>All the previous perks</li>
-    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Marketing App</li>
-    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Delhivery app</li>
-    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Extended support</li>
-    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Chat</li>
-    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Financing Analysis</li>
-    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Lifetime updates</li>
-                            </ul>
-                            <button class="btn btn-outline-primary btn-lg w-100">Sign up</button>
-                
+                        <h1 class="my-0 font-weight-normal">$7.99 <small class="text-muted">/mo</small></h1>
+                        <ul class="list-unstyled mt-5 mb-4 text-start p-0 ms-5">
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>All the previous perks</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Marketing App</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Delhivery app</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Extended support</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Chat</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Financing Analysis</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Lifetime updates</li>
+                        </ul>
+                        <button class="btn btn-outline-primary btn-lg w-100">Sign up</button>
                     </div>
-        
                 </div>
-                
             </div>
         </div>
-     
-
-
-
-
-
-
-
     </div>
 
-
-
-
-
-
-
-
-
     
-    <!-- Bootstrap 5 JS & Popper.js (for dropdowns, modals, etc.) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
